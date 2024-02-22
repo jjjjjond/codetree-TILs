@@ -8,7 +8,7 @@ int main() {
         cout << "High";
     }
     else if (eyes < 0.5){
-        cout << "LOW";
+        cout << "Low";
     }
     else {
         cout << "Middle";
