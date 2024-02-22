@@ -7,7 +7,7 @@ int main() {
     if (w_c < 0) {
         cout << "ice";
     }
-    else if (0 < w_c < 100) {
+    else if (0 < w_c <= 100) {
         cout << "water";
     }
     else {
