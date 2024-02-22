@@ -7,11 +7,11 @@ int main() {
     if (w_c < 0) {
         cout << "ice";
     }
-    else if (0 <= w_c < 100) {
-        cout << "water";
+    else if (100 <= w_c) {
+        cout << "vapor";
     }
     else {
-        cout << "vapor";
+        cout << "water";
     }
     return 0;
 }
