@@ -7,11 +7,11 @@ int main() {
     if (eyes >= 1.0){
         cout << "High";
     }
-    else if (1.0 > eyes >= 0.5){
-        cout << "Middle";
+    else if (eyes < 0.5){
+        cout << "LOW";
     }
     else {
-        cout << "Low";
+        cout << "Middle";
     }
     return 0;
 }
