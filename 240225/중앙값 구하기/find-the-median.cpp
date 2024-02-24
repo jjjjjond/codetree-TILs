@@ -5,22 +5,16 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int a, b, c; cin >> a >> b >> c;
 
-    if (a > b && a < c){
-        //if (b > c || c > b){
+    if ((a > b && a < c) || (a > c && a < b)){
             cout << a;
-        //}
     }
 
-    if (b > a && b < c){
-        //if (a > c || c > a){
-            cout << b;
-        //}
+    if ((b > a && b < c) || (b > c && b < a)){
+            cout << b;    
     }
 
-    if (c > a && c < b){
-        //if (a > b || b > c){
+    if ((c > a && c < b) || (c > b && c < a)){
             cout << c;
-        //}
     }
     return 0;
 }
