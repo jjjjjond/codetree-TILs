@@ -7,13 +7,8 @@ int main() {
     char s_1, s_2;
     cin >> age_1 >> s_1 >> age_2 >> s_2;
 
-    if (age_1 >= 19 || age_2 >= 19){
-        if (s_1 == 'M' || s_2 == 'M'){
-            cout << "1";
-        }
-        else {
-            cout << "0";
-        }
+    if ((age_1 >= 19 && s_1 == 'M') || (age_2 >= 19 && s_2 == 'M')){
+        cout << "1";
     }
     else {
         cout << "0";
