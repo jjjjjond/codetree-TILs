@@ -11,9 +11,9 @@ int main() {
         if (n > 7){
             cout << "31";
         }
-        else {
-            cout << "30";
-        }
+        //else {
+            //cout << "30";
+        //}
     }
     else {
         if (n < 8){
