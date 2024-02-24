@@ -9,10 +9,10 @@ int main() {
     if (A_m > B_m){
         cout << "A";
     }
-    else {
+    if (B_m > A_m){
         cout << "B";
     }
-    
+
     if (A_m == B_m){
         if (A_e > B_e){
             cout << "A";
