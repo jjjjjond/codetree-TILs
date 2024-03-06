@@ -5,9 +5,9 @@ int main() {
     // 여기에 코드를 작성해주세요.
     int n, i, sum_val = 1; cin >> n;
 
-    for (i = 1; i <= 100; i++){
+    for (i = 1; i < 100; i++){
         sum_val += 1;
-        if(sum_val >= n-1){
+        if(sum_val >= n){
             break;
         }
     }
