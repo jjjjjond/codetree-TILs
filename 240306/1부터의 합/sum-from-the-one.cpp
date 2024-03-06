@@ -7,10 +7,10 @@ int main() {
 
     for (i = 1; i <= 100; i++){
         sum_val += 1;
-        if(sum_val >= n){
+        if(sum_val >= n-1){
             break;
         }
     }
-    cout << i-1;
+    cout << i;
     return 0;
 }
