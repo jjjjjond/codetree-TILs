@@ -6,8 +6,8 @@ int main() {
     int n, i, sum_val = 1; cin >> n;
 
     for (i = 1; i < 100; i++){
-        sum_val += 1;
-        if(sum_val >= n){
+        sum_val += i;
+        if(sum_val > n){
             break;
         }
     }
